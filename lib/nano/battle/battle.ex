@@ -1,5 +1,5 @@
 defmodule Nano.Battle do
-    defstruct monster_entites: [], 
+    defstruct monster_entities: [], 
         player_entities: []
 
     def new(monster_entities, player_entities) do
